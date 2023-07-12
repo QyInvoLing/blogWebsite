@@ -178,4 +178,58 @@
 <h2 id="安装-Valine-插件"><a href="#安装-Valine-插件" class="headerlink" title="安装 Valine 插件"></a>安装 Valine 插件</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install valine --save</span><br></pre></td></tr></table></figure>
 ]]></content>
   </entry>
+  <entry>
+    <title>将Consul用作单机微服务注册中心</title>
+    <url>/2023/07/12/%E5%B0%86Consul%E7%94%A8%E4%BD%9C%E5%8D%95%E6%9C%BA%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>不太想干前端了，打算试一试别的工作，于是在积累了几次单体服务应用的开发经验之后，我打算试试看适应微服务开发思想，搞一个分布式的完整项目练练手。并且，今天我突然发现，我的博客很久没有更新了，自己丢掉了记录自己实践经验的习惯，总之——先找回习惯，用这篇文章记录一下，我在Ubuntu服务器上安装Consul，并在开发模式下将其用作注册中心的步骤。</p>
+<h1 id="什么是-Consul"><a href="#什么是-Consul" class="headerlink" title="什么是 Consul"></a>什么是 Consul</h1><blockquote>
+<p>Consul是一种开源的分布式服务网格和服务发现工具。它由HashiCorp开发并维护，旨在简化构建和管理分布式系统的任务。</p>
+<p>Consul提供了以下核心功能：</p>
+<ol>
+<li><strong>服务发现</strong>：Consul允许服务在集群中注册和发现，使得服务能够动态地发现和通信。服务可以向Consul注册自己的位置和元数据，并通过Consul的服务目录进行查询。</li>
+<li><strong>健康检查</strong>：Consul可以定期对注册的服务进行健康检查，以确保服务正常运行。如果服务出现故障或不可用，Consul可以及时更新服务目录，使其他服务不再将请求发送给故障的服务。</li>
+<li><strong>分布式键值存储</strong>：Consul提供了一个分布式的键值存储（Key-Value Store），用于存储和检索配置信息、元数据和其他共享数据。应用程序可以使用Consul的键值存储来进行配置管理和共享状态。</li>
+<li><strong>多数据中心支持</strong>：Consul支持多个数据中心之间的联邦和复制，使得可以构建全球性的分布式系统。这意味着不同地理位置的服务可以通过Consul进行发现和通信。</li>
+<li><strong>安全性</strong>：Consul提供了一些安全机制，如服务间的加密通信、访问控制列表（ACLs）和基于角色的访问控制，以确保系统的安全性。</li>
+</ol>
+<p>通过这些功能，Consul简化了构建、部署和管理分布式系统的复杂性。它在微服务架构、容器化环境和云原生应用程序中得到广泛使用，成为构建可靠和可扩展的分布式系统的关键工具之一。</p>
+</blockquote>
+<h1 id="安装-Consul"><a href="#安装-Consul" class="headerlink" title="安装 Consul"></a>安装 Consul</h1><p>我不喜欢用源码本地编译得到软件，遂打算去 Github 下载预编译好的二进制文件。在 Github 发布页得知，最新版本为1.16.0 。然而 Github没有提供二进制文件，遂去hashicorp官网，找到了下载链接。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget https://releases.hashicorp.com/consul/1.16.0/consul_1.16.0_linux_amd64.zip</span><br><span class="line">unzip consul_1.16.0_linux_amd64.zip -d &lt;部署目录&gt;</span><br></pre></td></tr></table></figure>
+
+<p>然后将其添加到PATH中：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">echo &#x27;export PATH=&quot;/我是/一个/一个/目录啊啊啊:$PATH&quot;&#x27; ~/.bashrc</span><br><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
+
+<p>至此，Consul 的安装已经完成</p>
+<h1 id="充当单机微服务注册中心"><a href="#充当单机微服务注册中心" class="headerlink" title="充当单机微服务注册中心"></a>充当单机微服务注册中心</h1><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>装完了，该启动了。由于我现在不需要注册服务&#x2F;健康检查以外的其他功能，也不需要主从集群（笑，没那么多服务器），所以让它单节点部署就行。我没有在防火墙里把对应端口打开，遂用 IPv6。</p>
+<p>同时，我也不想为 Consul 编写 dockerfile，并且，我是一个前端程序员，那么就用pm2启动。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">echo &quot;consul agent -dev -client=[::]&quot; &gt;&gt;./start_consul.sh</span><br><span class="line">pm2 start start_consul.sh --name consul</span><br></pre></td></tr></table></figure>
+
+<p>然后，查看状态：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">pm2 log consul</span><br></pre></td></tr></table></figure>
+
+<p>得到结果</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[TAILING] Tailing last 15 lines for [consul] process (change the value with --lines option)</span><br><span class="line">/root/.pm2/logs/consul-error.log last 15 lines:</span><br><span class="line">/root/.pm2/logs/consul-out.log last 15 lines:</span><br><span class="line">3|consul   | 2023-07-12T11:33:58.758+0800 [INFO]  agent.leader: started routine: routine=&quot;config entry controllers&quot;</span><br><span class="line">3|consul   | 2023-07-12T11:33:58.759+0800 [INFO]  agent.leader: stopping routine: routine=&quot;virtual IP version check&quot;</span><br><span class="line">3|consul   | 2023-07-12T11:33:58.759+0800 [INFO]  agent.leader: stopped routine: routine=&quot;virtual IP version check&quot;</span><br><span class="line">3|consul   | 2023-07-12T11:33:58.759+0800 [DEBUG] agent.server: successfully established leadership: duration=5.84684ms</span><br></pre></td></tr></table></figure>
+
+<p>启动成功。</p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>作为注册中心，它的大部分功能我都不需要，只记录一些最常用的用法。</p>
+<h3 id="服务注册"><a href="#服务注册" class="headerlink" title="服务注册"></a>服务注册</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">PUT /v1/agent/service/register</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>Name：服务名称</li>
+<li>ID：服务ID，不指定则为 Name 的值</li>
+<li>Address：服务地址</li>
+<li>Port：服务端口</li>
+<li>Check：健康检查，不指定视作_永远健康_。详询<a href="https://developer.hashicorp.com/consul/api-docs/agent/check">Check - Agent - HTTP API | Consul | HashiCorp Developer</a></li>
+</ul>
+<h3 id="取消注册"><a href="#取消注册" class="headerlink" title="取消注册"></a>取消注册</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">PUT /v1/agent/service/deregister/test</span><br></pre></td></tr></table></figure>
+
+<h3 id="获取服务列表"><a href="#获取服务列表" class="headerlink" title="获取服务列表"></a>获取服务列表</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">GET /v1/agent/services</span><br></pre></td></tr></table></figure>
+
+<p>可以使用filter这个query参数筛选，参考<a href="https://developer.hashicorp.com/consul/api-docs/agent/service#filtering">https://developer.hashicorp.com/consul/api-docs/agent/service#filtering</a></p>
+]]></content>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
 </search>
