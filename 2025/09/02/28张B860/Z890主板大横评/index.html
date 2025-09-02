@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"qingyin-xunling.tech","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.12.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":true,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="前言Intel Ultra 200s系列CPU发布后，其因其拉胯的游戏表现，CPU与主板价格一路下跌，目前其主力型号U7 265K已跌至1900元。首发售价高达3199的265K，果不其然地遇冷了，连带着各大板厂的z890主板一路跳水。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="QyInvoling&#39;s blog">
+<meta property="og:url" content="https://qingyin-xunling.tech/2025/09/02/28%E5%BC%A0B860/Z890%E4%B8%BB%E6%9D%BF%E5%A4%A7%E6%A8%AA%E8%AF%84/index.html">
+<meta property="og:site_name" content="QyInvoling&#39;s blog">
+<meta property="og:description" content="前言Intel Ultra 200s系列CPU发布后，其因其拉胯的游戏表现，CPU与主板价格一路下跌，目前其主力型号U7 265K已跌至1900元。首发售价高达3199的265K，果不其然地遇冷了，连带着各大板厂的z890主板一路跳水。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-09-02T12:44:17.761Z">
+<meta property="article:modified_time" content="2025-09-02T12:44:17.761Z">
+<meta property="article:author" content="QyInvoLing">
+<meta name="twitter:card" content="&lt;twitter:card&gt;">
+<meta name="twitter:image" content="https://qingyin-xunling.tech/2025/09/02/28%E5%BC%A0B860/Z890%E4%B8%BB%E6%9D%BF%E5%A4%A7%E6%A8%AA%E8%AF%84/%3Ctwitter:image%3E">
+<meta name="twitter:creator" content="@&lt;twitter:creator&gt;">
+<meta name="twitter:site" content="<twitter:site>">
+
+
+<link rel="canonical" href="https://qingyin-xunling.tech/2025/09/02/28%E5%BC%A0B860/Z890%E4%B8%BB%E6%9D%BF%E5%A4%A7%E6%A8%AA%E8%AF%84/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://qingyin-xunling.tech/2025/09/02/28%E5%BC%A0B860/Z890%E4%B8%BB%E6%9D%BF%E5%A4%A7%E6%A8%AA%E8%AF%84/","path":"2025/09/02/28张B860/Z890主板大横评/","title":""}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title> | QyInvoling's blog</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">QyInvoling's blog</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%A8%AA%E8%AF%84"><span class="nav-number">2.</span> <span class="nav-text">横评</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#B860"><span class="nav-number">2.1.</span> <span class="nav-text">B860</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%8E%A8%E8%8D%90"><span class="nav-number">2.2.</span> <span class="nav-text">推荐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8D%E6%8E%A8%E8%8D%90"><span class="nav-number">2.3.</span> <span class="nav-text">不推荐</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="QyInvoLing"
+      src="/images/avatar.png">
+  <p class="site-author-name" itemprop="name">QyInvoLing</p>
+  <div class="site-description" itemprop="description">In the long night ahead, waiting for the next spark in silence.</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/QyInvoLing" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;QyInvoLing" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+  <a href="https://github.com/QyInvoLing" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://qingyin-xunling.tech/2025/09/02/28%E5%BC%A0B860/Z890%E4%B8%BB%E6%9D%BF%E5%A4%A7%E6%A8%AA%E8%AF%84/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="QyInvoLing">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="QyInvoling's blog">
+      <meta itemprop="description" content="In the long night ahead, waiting for the next spark in silence.">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content=" | QyInvoling's blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-09-02 20:44:17" itemprop="dateCreated datePublished" datetime="2025-09-02T20:44:17+08:00">2025-09-02</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Intel Ultra 200s系列CPU发布后，其因其拉胯的游戏表现，CPU与主板价格一路下跌，目前其主力型号U7 265K已跌至1900元。首发售价高达3199的265K，果不其然地遇冷了，连带着各大板厂的z890主板一路跳水。</p>
+<p>在距离首发约一年的今天，265K板u套装已成为某多百亿补贴的常客——因此，我将在本文中，对我在百亿补贴频道中见到的z890主板和b860主板，进行比较，然后，结合它们的价格，进行推荐。</p>
+<p>我一共刷到了28款板u套装，将它们的价格扣除CPU的1900，然后由低到高排序，名单如下：</p>
+<table>
+<thead>
+<tr>
+<th>主板型号</th>
+<th>价格（元）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>微星 B860P</td>
+<td>779</td>
+</tr>
+<tr>
+<td>铭瑄 Z890M ESports WiFi</td>
+<td>785</td>
+</tr>
+<tr>
+<td>微星 B860MA</td>
+<td>799</td>
+</tr>
+<tr>
+<td>华擎 B860M Pro RS</td>
+<td>853</td>
+</tr>
+<tr>
+<td>微星 Z890S WiFi</td>
+<td>912</td>
+</tr>
+<tr>
+<td>微星 B860M 迫击炮</td>
+<td>919</td>
+</tr>
+<tr>
+<td>微星 Z890P</td>
+<td>921</td>
+</tr>
+<tr>
+<td>华硕 Z890P</td>
+<td>968</td>
+</tr>
+<tr>
+<td>七彩虹 Z890M 战列舰</td>
+<td>999</td>
+</tr>
+<tr>
+<td>华硕 Z890P WiFi</td>
+<td>999</td>
+</tr>
+<tr>
+<td>微星 Z890P WiFi</td>
+<td>1009</td>
+</tr>
+<tr>
+<td>华硕 B860M 天选</td>
+<td>1009</td>
+</tr>
+<tr>
+<td>华硕 Z890M Plus</td>
+<td>1139</td>
+</tr>
+<tr>
+<td>技嘉 B860M 小雕</td>
+<td>1179</td>
+</tr>
+<tr>
+<td>华擎 Z890 Pro RS</td>
+<td>1280</td>
+</tr>
+<tr>
+<td>微星 Z890 Gaming Plus WiFi</td>
+<td>1299</td>
+</tr>
+<tr>
+<td>技嘉 B860I 迷你冰雕</td>
+<td>1299</td>
+</tr>
+<tr>
+<td>华硕 Z890 AYW WiFi</td>
+<td>1329</td>
+</tr>
+<tr>
+<td>微星 Z890-A WiFi</td>
+<td>1362</td>
+</tr>
+<tr>
+<td>技嘉 Z890 Eagle WiFi7</td>
+<td>1379</td>
+</tr>
+<tr>
+<td>华硕 B860G小吹雪</td>
+<td>1379</td>
+</tr>
+<tr>
+<td>技嘉 Z890M 冰雕</td>
+<td>1399</td>
+</tr>
+<tr>
+<td>微星 Z890 战斧导弹</td>
+<td>1569</td>
+</tr>
+<tr>
+<td>技嘉 Z890 小雕</td>
+<td>1717</td>
+</tr>
+<tr>
+<td>微星 Z890 刀锋钛</td>
+<td>1950</td>
+</tr>
+<tr>
+<td>技嘉 Z890 电竞冰雕</td>
+<td>2079</td>
+</tr>
+<tr>
+<td>微星 Z890 暗黑</td>
+<td>2558</td>
+</tr>
+<tr>
+<td>华硕 Z890 Hero</td>
+<td>3039</td>
+</tr>
+</tbody></table>
+<h1 id="横评"><a href="#横评" class="headerlink" title="横评"></a>横评</h1><h2 id="B860"><a href="#B860" class="headerlink" title="B860"></a>B860</h2><p>首先，b860一律不推荐。</p>
+<ul>
+<li>b860芯片组的拓展性，与z890的差距很大，但价格差距很小——拓展性优势是Ultra200s之于AM5的巨大优势，不应该舍弃</li>
+<li>b860缺失超频功能，即使是带有外置时钟发生器的迫击炮，也无法超总线，这对ultra200s比较重要</li>
+</ul>
+<p>因此，b860一律不推荐</p>
+<p>(目前出局的选手)</p>
+<table>
+<thead>
+<tr>
+<th>主板型号</th>
+<th>价格（元）</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>微星 B860P</td>
+<td>779</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>微星 B860MA</td>
+<td>799</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>华擎 B860M Pro RS</td>
+<td>853</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>微星 B860M 迫击炮</td>
+<td>919</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>华硕 B860M 天选</td>
+<td>1009</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>技嘉 B860M 小雕</td>
+<td>1179</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>技嘉 B860I 迷你冰雕</td>
+<td>1299</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>华硕 B860G小吹雪</td>
+<td>1379</td>
+<td>出局</td>
+</tr>
+</tbody></table>
+<h2 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h2><p>就z890主板而言，我的原则是：实惠压倒一切。</p>
+<p>这些打折的主板，价位相近，竞争激烈；由于z890芯片组的强大，它们的拓展性普遍很高，各大板厂也给足了供电规模，导致许多中低端z890 ATX主板性价比极高，甚至有以下犯上的情况出现——所以，对于那些华而不实，拓展性不强的z890，会如同刚才的b860那样，被激烈的竞争直接淘汰。</p>
+<p>总的来说，这些主板都是综合规格优秀的主板，每一张主板的拓展性都很棒，且除了暗黑，价格都非常亲民，强烈推荐。</p>
+<table>
+<thead>
+<tr>
+<th>主板型号</th>
+<th>价格（元）</th>
+<th>核心供电</th>
+<th>芯片组无冲突M2+PCIe插槽总通道数量</th>
+<th>网卡</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>微星 Z890P</td>
+<td>921</td>
+<td>14相55A</td>
+<td>17</td>
+<td>RTL8126</td>
+<td>规格不如华硕Z890P WiFi，但微星对插四条内存优化好；和WiFi版差价过大，推荐</td>
+</tr>
+<tr>
+<td>七彩虹 Z890M 战列舰</td>
+<td>999</td>
+<td>14相60A</td>
+<td>16</td>
+<td>RTL8125BG+AX211</td>
+<td>matx大王，推荐，但更推荐御三家大板</td>
+</tr>
+<tr>
+<td>华硕 Z890P WiFi</td>
+<td>999</td>
+<td>14相80A</td>
+<td>17</td>
+<td>RTL8215D+不明瑞昱WiFi7</td>
+<td>规格优秀价格不高，推荐</td>
+</tr>
+<tr>
+<td>微星 Z890 暗黑</td>
+<td>2558</td>
+<td>20相110A</td>
+<td>16</td>
+<td>E5000B&amp;I226V+BE1750X</td>
+<td>USB拉满，双有线网卡，但相较于CPU价格过高，勉强能推荐</td>
+</tr>
+</tbody></table>
+<h2 id="不推荐"><a href="#不推荐" class="headerlink" title="不推荐"></a>不推荐</h2><p>不被推荐的这些主板呢，各有各的不足：</p>
+<ul>
+<li>有些入门级主板用料不错，但受制于Ultra200s爆冷，无法大量铺货，导致价格偏高</li>
+<li>有些规格不错但价格偏高，技嘉的全系主板基本都符合这一特征</li>
+<li>有的高端主板徒有高端之名，实力哪哪都不行，做出来是在砸自己的招牌</li>
+</ul>
+<p>注意，我不推荐买≠我推荐不买。如果这些主板之后降价到了合适的位置，还是可以考虑入手的。</p>
+<table>
+<thead>
+<tr>
+<th>主板型号</th>
+<th>价格（元）</th>
+<th>核心供电</th>
+<th>芯片组无冲突M2+PCIe插槽总通道数量</th>
+<th>网卡</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>铭瑄 Z890M ESports WiFi</strong></td>
+<td>785</td>
+<td>10相60A</td>
+<td>13</td>
+<td>RTL8125BG+AX101</td>
+<td>建议加钱上七彩虹Z890m战列舰</td>
+</tr>
+<tr>
+<td><strong>微星 Z890S WiFi</strong></td>
+<td>912</td>
+<td>12相？A</td>
+<td>12+1x3.0</td>
+<td>RTL8125D+推测BE200</td>
+<td>规格偏低价格偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>华硕 Z890P</strong></td>
+<td>968</td>
+<td>14相80A</td>
+<td>17</td>
+<td>RTL8215D</td>
+<td>差价31元，WiFi版更值得</td>
+</tr>
+<tr>
+<td><strong>微星 Z890P WiFi</strong></td>
+<td>1009</td>
+<td>14相55A</td>
+<td>17</td>
+<td>RTL8126+推测BE200</td>
+<td>规格不如华硕Z890P WiFi，但微星对插四条内存优化好，捏着鼻子选它</td>
+</tr>
+<tr>
+<td><strong>华硕 Z890M Plus</strong></td>
+<td>1139</td>
+<td>10相80A</td>
+<td>13</td>
+<td>RTL8125D+不明瑞昱WiFi7</td>
+<td>背面放m2，价格严重偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>华擎 Z890 Pro RS</strong></td>
+<td>1280</td>
+<td>16相？A</td>
+<td>17</td>
+<td>RTL8125BG+预留安装位</td>
+<td>售后困难，价格严重偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>微星 Z890 Gaming Plus WiFi</strong></td>
+<td>1299</td>
+<td>14相55A</td>
+<td>21</td>
+<td>E5000+BE1750x</td>
+<td>有四条CPU直连通道没用，巨抽象，不推荐</td>
+</tr>
+<tr>
+<td><strong>华硕 Z890 AYW WiFi</strong></td>
+<td>1329</td>
+<td>12相80A</td>
+<td>17</td>
+<td>RTL8125D+推测MT7902</td>
+<td>价格严重偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>微星 Z890-A WiFi</strong></td>
+<td>1362</td>
+<td>16相90A</td>
+<td>16</td>
+<td>RTL8126+推测BE200</td>
+<td>价格偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>技嘉 Z890 Eagle WiFi7</strong></td>
+<td>1379</td>
+<td>14相60A</td>
+<td>16</td>
+<td>不明瑞昱2.5G+MT7925&#x2F;8922AE</td>
+<td>看看华硕微星吧，不推荐</td>
+</tr>
+<tr>
+<td><strong>技嘉 Z890M 冰雕</strong></td>
+<td>1399</td>
+<td>12相60A</td>
+<td>16</td>
+<td>不明瑞昱2.5G+MT7925&#x2F;8922AE</td>
+<td>价格严重偏高，极不推荐</td>
+</tr>
+<tr>
+<td><strong>微星 Z890 战斧导</strong>弹</td>
+<td>1569</td>
+<td>16相90A</td>
+<td>16</td>
+<td>E5000+BE1750X</td>
+<td>供电强，拓展性没优势，价格偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>技嘉 Z890 小雕</strong></td>
+<td>1717</td>
+<td>16相80A</td>
+<td>16</td>
+<td>不明瑞昱2.5G+MT7925&#x2F;8922AE</td>
+<td>价格严重偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>微星 Z890 刀锋钛</strong></td>
+<td>1950</td>
+<td>16相90A</td>
+<td>17</td>
+<td>E5000B+BE1750X</td>
+<td>价格严重偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>技嘉 Z890 电竞冰雕</strong></td>
+<td>2079</td>
+<td>16相 90A</td>
+<td>17</td>
+<td>RTL8126+BE200</td>
+<td>相较于CPU价格偏高，在这个价位USB太寒酸，不推荐</td>
+</tr>
+<tr>
+<td><strong>华硕 Z890 Hero</strong></td>
+<td>3039</td>
+<td>22相110A</td>
+<td>16</td>
+<td>不明瑞昱5G&amp;I226+不明Intel WiFi7</td>
+<td>拆分做的一坨的Hero跳水到3000，不推荐</td>
+</tr>
+</tbody></table>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>由于Ultra200s CPU的大跳水，许多LGA1851主板也跟着跳水了，价格只有综合规格相近的AM5主板的一半，我刚开始挑选时也感到眼花缭乱——希望我的这篇文章对你选购它们有所帮助。</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2025/01/12/%E4%B8%80%E6%8B%9B%E7%A7%92%E6%9D%809800X3D%EF%BC%8CR9X3DCPU%E8%BF%9B%E9%98%B6%E8%AE%BE%E7%BD%AE%E6%95%99%E7%A8%8B%EF%BC%8C%E4%B8%8D%E5%86%8D%E9%AB%98%E4%BB%B7%E4%BD%8E%E8%83%BD/" rel="prev" title="一招秒杀9800X3D，R9 X3DCPU进阶设置教程，不再高价低能">
+                  <i class="fa fa-chevron-left"></i> 一招秒杀9800X3D，R9 X3DCPU进阶设置教程，不再高价低能
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2025</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">QyInvoLing</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" integrity="sha256-mOFREFhqmHeQbXpK2lp4nA3qooVgACfh88fpJftLBbc=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
+
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.0/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+  <script src="/js/third-party/fancybox.js"></script>
+
+
+  
+
+
+
+
+
+</body>
+</html>
