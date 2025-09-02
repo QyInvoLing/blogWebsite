@@ -1,6 +1,388 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>28张百亿补贴B860/Z890主板大横评</title>
+    <url>/2025/09/02/Z890%E4%B8%BB%E6%9D%BF%E5%A4%A7%E6%A8%AA%E8%AF%84/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Intel Ultra 200s系列CPU发布后，其因其拉胯的游戏表现，CPU与主板价格一路下跌，目前其主力型号U7 265K已跌至1900元。首发售价高达3199的265K，果不其然地遇冷了，连带着各大板厂的z890主板一路跳水。</p>
+<p>在距离首发约一年的今天，265K板u套装已成为某多百亿补贴的常客——因此，我将在本文中，对我在百亿补贴频道中见到的z890主板和b860主板，进行比较，然后，结合它们的价格，进行推荐。</p>
+<p>我一共刷到了28款板u套装，将它们的价格扣除CPU的1900，然后由低到高排序，名单如下：</p>
+<table>
+<thead>
+<tr>
+<th>主板型号</th>
+<th>价格（元）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>微星 B860P</td>
+<td>779</td>
+</tr>
+<tr>
+<td>铭瑄 Z890M ESports WiFi</td>
+<td>785</td>
+</tr>
+<tr>
+<td>微星 B860MA</td>
+<td>799</td>
+</tr>
+<tr>
+<td>华擎 B860M Pro RS</td>
+<td>853</td>
+</tr>
+<tr>
+<td>微星 Z890S WiFi</td>
+<td>912</td>
+</tr>
+<tr>
+<td>微星 B860M 迫击炮</td>
+<td>919</td>
+</tr>
+<tr>
+<td>微星 Z890P</td>
+<td>921</td>
+</tr>
+<tr>
+<td>华硕 Z890P</td>
+<td>968</td>
+</tr>
+<tr>
+<td>七彩虹 Z890M 战列舰</td>
+<td>999</td>
+</tr>
+<tr>
+<td>华硕 Z890P WiFi</td>
+<td>999</td>
+</tr>
+<tr>
+<td>微星 Z890P WiFi</td>
+<td>1009</td>
+</tr>
+<tr>
+<td>华硕 B860M 天选</td>
+<td>1009</td>
+</tr>
+<tr>
+<td>华硕 Z890M Plus</td>
+<td>1139</td>
+</tr>
+<tr>
+<td>技嘉 B860M 小雕</td>
+<td>1179</td>
+</tr>
+<tr>
+<td>华擎 Z890 Pro RS</td>
+<td>1280</td>
+</tr>
+<tr>
+<td>微星 Z890 Gaming Plus WiFi</td>
+<td>1299</td>
+</tr>
+<tr>
+<td>技嘉 B860I 迷你冰雕</td>
+<td>1299</td>
+</tr>
+<tr>
+<td>华硕 Z890 AYW WiFi</td>
+<td>1329</td>
+</tr>
+<tr>
+<td>微星 Z890-A WiFi</td>
+<td>1362</td>
+</tr>
+<tr>
+<td>技嘉 Z890 Eagle WiFi7</td>
+<td>1379</td>
+</tr>
+<tr>
+<td>华硕 B860G小吹雪</td>
+<td>1379</td>
+</tr>
+<tr>
+<td>技嘉 Z890M 冰雕</td>
+<td>1399</td>
+</tr>
+<tr>
+<td>微星 Z890 战斧导弹</td>
+<td>1569</td>
+</tr>
+<tr>
+<td>技嘉 Z890 小雕</td>
+<td>1717</td>
+</tr>
+<tr>
+<td>微星 Z890 刀锋钛</td>
+<td>1950</td>
+</tr>
+<tr>
+<td>技嘉 Z890 电竞冰雕</td>
+<td>2079</td>
+</tr>
+<tr>
+<td>微星 Z890 暗黑</td>
+<td>2558</td>
+</tr>
+<tr>
+<td>华硕 Z890 Hero</td>
+<td>3039</td>
+</tr>
+</tbody></table>
+<h1 id="横评"><a href="#横评" class="headerlink" title="横评"></a>横评</h1><h2 id="B860"><a href="#B860" class="headerlink" title="B860"></a>B860</h2><p>首先，b860一律不推荐。</p>
+<ul>
+<li>b860芯片组的拓展性，与z890的差距很大，但价格差距很小——拓展性优势是Ultra200s之于AM5的巨大优势，不应该舍弃</li>
+<li>b860缺失超频功能，即使是带有外置时钟发生器的迫击炮，也无法超总线，这对ultra200s比较重要</li>
+</ul>
+<p>因此，b860一律不推荐</p>
+<p>(目前出局的选手)</p>
+<table>
+<thead>
+<tr>
+<th>主板型号</th>
+<th>价格（元）</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>微星 B860P</td>
+<td>779</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>微星 B860MA</td>
+<td>799</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>华擎 B860M Pro RS</td>
+<td>853</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>微星 B860M 迫击炮</td>
+<td>919</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>华硕 B860M 天选</td>
+<td>1009</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>技嘉 B860M 小雕</td>
+<td>1179</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>技嘉 B860I 迷你冰雕</td>
+<td>1299</td>
+<td>出局</td>
+</tr>
+<tr>
+<td>华硕 B860G小吹雪</td>
+<td>1379</td>
+<td>出局</td>
+</tr>
+</tbody></table>
+<h2 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h2><p>就z890主板而言，我的原则是：实惠压倒一切。</p>
+<p>这些打折的主板，价位相近，竞争激烈；由于z890芯片组的强大，它们的拓展性普遍很高，各大板厂也给足了供电规模，导致许多中低端z890 ATX主板性价比极高，甚至有以下犯上的情况出现——所以，对于那些华而不实，拓展性不强的z890，会如同刚才的b860那样，被激烈的竞争直接淘汰。</p>
+<p>总的来说，这些主板都是综合规格优秀的主板，每一张主板的拓展性都很棒，且除了暗黑，价格都非常亲民，强烈推荐。</p>
+<table>
+<thead>
+<tr>
+<th>主板型号</th>
+<th>价格（元）</th>
+<th>核心供电</th>
+<th>芯片组无冲突M2+PCIe插槽总通道数量</th>
+<th>网卡</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>微星 Z890P</td>
+<td>921</td>
+<td>14相55A</td>
+<td>17</td>
+<td>RTL8126</td>
+<td>规格不如华硕Z890P WiFi，但微星对插四条内存优化好；和WiFi版差价过大，推荐</td>
+</tr>
+<tr>
+<td>七彩虹 Z890M 战列舰</td>
+<td>999</td>
+<td>14相60A</td>
+<td>16</td>
+<td>RTL8125BG+AX211</td>
+<td>matx大王，推荐，但更推荐御三家大板</td>
+</tr>
+<tr>
+<td>华硕 Z890P WiFi</td>
+<td>999</td>
+<td>14相80A</td>
+<td>17</td>
+<td>RTL8215D+不明瑞昱WiFi7</td>
+<td>规格优秀价格不高，推荐</td>
+</tr>
+<tr>
+<td>微星 Z890 暗黑</td>
+<td>2558</td>
+<td>20相110A</td>
+<td>16</td>
+<td>E5000B&amp;I226V+BE1750X</td>
+<td>USB拉满，双有线网卡，但相较于CPU价格过高，勉强能推荐</td>
+</tr>
+</tbody></table>
+<h2 id="不推荐"><a href="#不推荐" class="headerlink" title="不推荐"></a>不推荐</h2><p>不被推荐的这些主板呢，各有各的不足：</p>
+<ul>
+<li>有些入门级主板用料不错，但受制于Ultra200s爆冷，无法大量铺货，导致价格偏高</li>
+<li>有些规格不错但价格偏高，技嘉的全系主板基本都符合这一特征</li>
+<li>有的高端主板徒有高端之名，实力哪哪都不行，做出来是在砸自己的招牌</li>
+</ul>
+<p>注意，我不推荐买≠我推荐不买。如果这些主板之后降价到了合适的位置，还是可以考虑入手的。</p>
+<table>
+<thead>
+<tr>
+<th>主板型号</th>
+<th>价格（元）</th>
+<th>核心供电</th>
+<th>芯片组无冲突M2+PCIe插槽总通道数量</th>
+<th>网卡</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>铭瑄 Z890M ESports WiFi</strong></td>
+<td>785</td>
+<td>10相60A</td>
+<td>13</td>
+<td>RTL8125BG+AX101</td>
+<td>建议加钱上七彩虹Z890m战列舰</td>
+</tr>
+<tr>
+<td><strong>微星 Z890S WiFi</strong></td>
+<td>912</td>
+<td>12相？A</td>
+<td>12+1x3.0</td>
+<td>RTL8125D+推测BE200</td>
+<td>规格偏低价格偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>华硕 Z890P</strong></td>
+<td>968</td>
+<td>14相80A</td>
+<td>17</td>
+<td>RTL8215D</td>
+<td>差价31元，WiFi版更值得</td>
+</tr>
+<tr>
+<td><strong>微星 Z890P WiFi</strong></td>
+<td>1009</td>
+<td>14相55A</td>
+<td>17</td>
+<td>RTL8126+推测BE200</td>
+<td>规格不如华硕Z890P WiFi，但微星对插四条内存优化好，捏着鼻子选它</td>
+</tr>
+<tr>
+<td><strong>华硕 Z890M Plus</strong></td>
+<td>1139</td>
+<td>10相80A</td>
+<td>13</td>
+<td>RTL8125D+不明瑞昱WiFi7</td>
+<td>背面放m2，价格严重偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>华擎 Z890 Pro RS</strong></td>
+<td>1280</td>
+<td>16相？A</td>
+<td>17</td>
+<td>RTL8125BG+预留安装位</td>
+<td>售后困难，价格严重偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>微星 Z890 Gaming Plus WiFi</strong></td>
+<td>1299</td>
+<td>14相55A</td>
+<td>21</td>
+<td>E5000+BE1750x</td>
+<td>有四条CPU直连通道没用，巨抽象，不推荐</td>
+</tr>
+<tr>
+<td><strong>华硕 Z890 AYW WiFi</strong></td>
+<td>1329</td>
+<td>12相80A</td>
+<td>17</td>
+<td>RTL8125D+推测MT7902</td>
+<td>价格严重偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>微星 Z890-A WiFi</strong></td>
+<td>1362</td>
+<td>16相90A</td>
+<td>16</td>
+<td>RTL8126+推测BE200</td>
+<td>价格偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>技嘉 Z890 Eagle WiFi7</strong></td>
+<td>1379</td>
+<td>14相60A</td>
+<td>16</td>
+<td>不明瑞昱2.5G+MT7925&#x2F;8922AE</td>
+<td>看看华硕微星吧，不推荐</td>
+</tr>
+<tr>
+<td><strong>技嘉 Z890M 冰雕</strong></td>
+<td>1399</td>
+<td>12相60A</td>
+<td>16</td>
+<td>不明瑞昱2.5G+MT7925&#x2F;8922AE</td>
+<td>价格严重偏高，极不推荐</td>
+</tr>
+<tr>
+<td><strong>微星 Z890 战斧导</strong>弹</td>
+<td>1569</td>
+<td>16相90A</td>
+<td>16</td>
+<td>E5000+BE1750X</td>
+<td>供电强，拓展性没优势，价格偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>技嘉 Z890 小雕</strong></td>
+<td>1717</td>
+<td>16相80A</td>
+<td>16</td>
+<td>不明瑞昱2.5G+MT7925&#x2F;8922AE</td>
+<td>价格严重偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>微星 Z890 刀锋钛</strong></td>
+<td>1950</td>
+<td>16相90A</td>
+<td>17</td>
+<td>E5000B+BE1750X</td>
+<td>价格严重偏高，不推荐</td>
+</tr>
+<tr>
+<td><strong>技嘉 Z890 电竞冰雕</strong></td>
+<td>2079</td>
+<td>16相 90A</td>
+<td>17</td>
+<td>RTL8126+BE200</td>
+<td>相较于CPU价格偏高，在这个价位USB太寒酸，不推荐</td>
+</tr>
+<tr>
+<td><strong>华硕 Z890 Hero</strong></td>
+<td>3039</td>
+<td>22相110A</td>
+<td>16</td>
+<td>不明瑞昱5G&amp;I226+不明Intel WiFi7</td>
+<td>拆分做的一坨的Hero跳水到3000，不推荐</td>
+</tr>
+</tbody></table>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>由于Ultra200s CPU的大跳水，许多LGA1851主板也跟着跳水了，价格只有综合规格相近的AM5主板的一半，我刚开始挑选时也感到眼花缭乱——希望我的这篇文章对你选购它们有所帮助。</p>
+]]></content>
+      <tags>
+        <tag>PCDiy</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Paranoia:Deliver Me 通关感言&amp;剧情解析</title>
     <url>/2021/09/30/deliverme/</url>
     <content><![CDATA[<h1 id="Paranoia-Deliver-Me-通关感言-剧情解析"><a href="#Paranoia-Deliver-Me-通关感言-剧情解析" class="headerlink" title="Paranoia:Deliver Me 通关感言&amp;剧情解析"></a>Paranoia:Deliver Me 通关感言&amp;剧情解析</h1><img data-src="/2021/09/30/deliverme/0.png" class="" title="破茧成蝶">
@@ -453,384 +835,5 @@
       <tags>
         <tag>学习</tag>
       </tags>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2025/09/02/28%E5%BC%A0B860/Z890%E4%B8%BB%E6%9D%BF%E5%A4%A7%E6%A8%AA%E8%AF%84/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Intel Ultra 200s系列CPU发布后，其因其拉胯的游戏表现，CPU与主板价格一路下跌，目前其主力型号U7 265K已跌至1900元。首发售价高达3199的265K，果不其然地遇冷了，连带着各大板厂的z890主板一路跳水。</p>
-<p>在距离首发约一年的今天，265K板u套装已成为某多百亿补贴的常客——因此，我将在本文中，对我在百亿补贴频道中见到的z890主板和b860主板，进行比较，然后，结合它们的价格，进行推荐。</p>
-<p>我一共刷到了28款板u套装，将它们的价格扣除CPU的1900，然后由低到高排序，名单如下：</p>
-<table>
-<thead>
-<tr>
-<th>主板型号</th>
-<th>价格（元）</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>微星 B860P</td>
-<td>779</td>
-</tr>
-<tr>
-<td>铭瑄 Z890M ESports WiFi</td>
-<td>785</td>
-</tr>
-<tr>
-<td>微星 B860MA</td>
-<td>799</td>
-</tr>
-<tr>
-<td>华擎 B860M Pro RS</td>
-<td>853</td>
-</tr>
-<tr>
-<td>微星 Z890S WiFi</td>
-<td>912</td>
-</tr>
-<tr>
-<td>微星 B860M 迫击炮</td>
-<td>919</td>
-</tr>
-<tr>
-<td>微星 Z890P</td>
-<td>921</td>
-</tr>
-<tr>
-<td>华硕 Z890P</td>
-<td>968</td>
-</tr>
-<tr>
-<td>七彩虹 Z890M 战列舰</td>
-<td>999</td>
-</tr>
-<tr>
-<td>华硕 Z890P WiFi</td>
-<td>999</td>
-</tr>
-<tr>
-<td>微星 Z890P WiFi</td>
-<td>1009</td>
-</tr>
-<tr>
-<td>华硕 B860M 天选</td>
-<td>1009</td>
-</tr>
-<tr>
-<td>华硕 Z890M Plus</td>
-<td>1139</td>
-</tr>
-<tr>
-<td>技嘉 B860M 小雕</td>
-<td>1179</td>
-</tr>
-<tr>
-<td>华擎 Z890 Pro RS</td>
-<td>1280</td>
-</tr>
-<tr>
-<td>微星 Z890 Gaming Plus WiFi</td>
-<td>1299</td>
-</tr>
-<tr>
-<td>技嘉 B860I 迷你冰雕</td>
-<td>1299</td>
-</tr>
-<tr>
-<td>华硕 Z890 AYW WiFi</td>
-<td>1329</td>
-</tr>
-<tr>
-<td>微星 Z890-A WiFi</td>
-<td>1362</td>
-</tr>
-<tr>
-<td>技嘉 Z890 Eagle WiFi7</td>
-<td>1379</td>
-</tr>
-<tr>
-<td>华硕 B860G小吹雪</td>
-<td>1379</td>
-</tr>
-<tr>
-<td>技嘉 Z890M 冰雕</td>
-<td>1399</td>
-</tr>
-<tr>
-<td>微星 Z890 战斧导弹</td>
-<td>1569</td>
-</tr>
-<tr>
-<td>技嘉 Z890 小雕</td>
-<td>1717</td>
-</tr>
-<tr>
-<td>微星 Z890 刀锋钛</td>
-<td>1950</td>
-</tr>
-<tr>
-<td>技嘉 Z890 电竞冰雕</td>
-<td>2079</td>
-</tr>
-<tr>
-<td>微星 Z890 暗黑</td>
-<td>2558</td>
-</tr>
-<tr>
-<td>华硕 Z890 Hero</td>
-<td>3039</td>
-</tr>
-</tbody></table>
-<h1 id="横评"><a href="#横评" class="headerlink" title="横评"></a>横评</h1><h2 id="B860"><a href="#B860" class="headerlink" title="B860"></a>B860</h2><p>首先，b860一律不推荐。</p>
-<ul>
-<li>b860芯片组的拓展性，与z890的差距很大，但价格差距很小——拓展性优势是Ultra200s之于AM5的巨大优势，不应该舍弃</li>
-<li>b860缺失超频功能，即使是带有外置时钟发生器的迫击炮，也无法超总线，这对ultra200s比较重要</li>
-</ul>
-<p>因此，b860一律不推荐</p>
-<p>(目前出局的选手)</p>
-<table>
-<thead>
-<tr>
-<th>主板型号</th>
-<th>价格（元）</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>微星 B860P</td>
-<td>779</td>
-<td>出局</td>
-</tr>
-<tr>
-<td>微星 B860MA</td>
-<td>799</td>
-<td>出局</td>
-</tr>
-<tr>
-<td>华擎 B860M Pro RS</td>
-<td>853</td>
-<td>出局</td>
-</tr>
-<tr>
-<td>微星 B860M 迫击炮</td>
-<td>919</td>
-<td>出局</td>
-</tr>
-<tr>
-<td>华硕 B860M 天选</td>
-<td>1009</td>
-<td>出局</td>
-</tr>
-<tr>
-<td>技嘉 B860M 小雕</td>
-<td>1179</td>
-<td>出局</td>
-</tr>
-<tr>
-<td>技嘉 B860I 迷你冰雕</td>
-<td>1299</td>
-<td>出局</td>
-</tr>
-<tr>
-<td>华硕 B860G小吹雪</td>
-<td>1379</td>
-<td>出局</td>
-</tr>
-</tbody></table>
-<h2 id="推荐"><a href="#推荐" class="headerlink" title="推荐"></a>推荐</h2><p>就z890主板而言，我的原则是：实惠压倒一切。</p>
-<p>这些打折的主板，价位相近，竞争激烈；由于z890芯片组的强大，它们的拓展性普遍很高，各大板厂也给足了供电规模，导致许多中低端z890 ATX主板性价比极高，甚至有以下犯上的情况出现——所以，对于那些华而不实，拓展性不强的z890，会如同刚才的b860那样，被激烈的竞争直接淘汰。</p>
-<p>总的来说，这些主板都是综合规格优秀的主板，每一张主板的拓展性都很棒，且除了暗黑，价格都非常亲民，强烈推荐。</p>
-<table>
-<thead>
-<tr>
-<th>主板型号</th>
-<th>价格（元）</th>
-<th>核心供电</th>
-<th>芯片组无冲突M2+PCIe插槽总通道数量</th>
-<th>网卡</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>微星 Z890P</td>
-<td>921</td>
-<td>14相55A</td>
-<td>17</td>
-<td>RTL8126</td>
-<td>规格不如华硕Z890P WiFi，但微星对插四条内存优化好；和WiFi版差价过大，推荐</td>
-</tr>
-<tr>
-<td>七彩虹 Z890M 战列舰</td>
-<td>999</td>
-<td>14相60A</td>
-<td>16</td>
-<td>RTL8125BG+AX211</td>
-<td>matx大王，推荐，但更推荐御三家大板</td>
-</tr>
-<tr>
-<td>华硕 Z890P WiFi</td>
-<td>999</td>
-<td>14相80A</td>
-<td>17</td>
-<td>RTL8215D+不明瑞昱WiFi7</td>
-<td>规格优秀价格不高，推荐</td>
-</tr>
-<tr>
-<td>微星 Z890 暗黑</td>
-<td>2558</td>
-<td>20相110A</td>
-<td>16</td>
-<td>E5000B&amp;I226V+BE1750X</td>
-<td>USB拉满，双有线网卡，但相较于CPU价格过高，勉强能推荐</td>
-</tr>
-</tbody></table>
-<h2 id="不推荐"><a href="#不推荐" class="headerlink" title="不推荐"></a>不推荐</h2><p>不被推荐的这些主板呢，各有各的不足：</p>
-<ul>
-<li>有些入门级主板用料不错，但受制于Ultra200s爆冷，无法大量铺货，导致价格偏高</li>
-<li>有些规格不错但价格偏高，技嘉的全系主板基本都符合这一特征</li>
-<li>有的高端主板徒有高端之名，实力哪哪都不行，做出来是在砸自己的招牌</li>
-</ul>
-<p>注意，我不推荐买≠我推荐不买。如果这些主板之后降价到了合适的位置，还是可以考虑入手的。</p>
-<table>
-<thead>
-<tr>
-<th>主板型号</th>
-<th>价格（元）</th>
-<th>核心供电</th>
-<th>芯片组无冲突M2+PCIe插槽总通道数量</th>
-<th>网卡</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td><strong>铭瑄 Z890M ESports WiFi</strong></td>
-<td>785</td>
-<td>10相60A</td>
-<td>13</td>
-<td>RTL8125BG+AX101</td>
-<td>建议加钱上七彩虹Z890m战列舰</td>
-</tr>
-<tr>
-<td><strong>微星 Z890S WiFi</strong></td>
-<td>912</td>
-<td>12相？A</td>
-<td>12+1x3.0</td>
-<td>RTL8125D+推测BE200</td>
-<td>规格偏低价格偏高，不推荐</td>
-</tr>
-<tr>
-<td><strong>华硕 Z890P</strong></td>
-<td>968</td>
-<td>14相80A</td>
-<td>17</td>
-<td>RTL8215D</td>
-<td>差价31元，WiFi版更值得</td>
-</tr>
-<tr>
-<td><strong>微星 Z890P WiFi</strong></td>
-<td>1009</td>
-<td>14相55A</td>
-<td>17</td>
-<td>RTL8126+推测BE200</td>
-<td>规格不如华硕Z890P WiFi，但微星对插四条内存优化好，捏着鼻子选它</td>
-</tr>
-<tr>
-<td><strong>华硕 Z890M Plus</strong></td>
-<td>1139</td>
-<td>10相80A</td>
-<td>13</td>
-<td>RTL8125D+不明瑞昱WiFi7</td>
-<td>背面放m2，价格严重偏高，不推荐</td>
-</tr>
-<tr>
-<td><strong>华擎 Z890 Pro RS</strong></td>
-<td>1280</td>
-<td>16相？A</td>
-<td>17</td>
-<td>RTL8125BG+预留安装位</td>
-<td>售后困难，价格严重偏高，不推荐</td>
-</tr>
-<tr>
-<td><strong>微星 Z890 Gaming Plus WiFi</strong></td>
-<td>1299</td>
-<td>14相55A</td>
-<td>21</td>
-<td>E5000+BE1750x</td>
-<td>有四条CPU直连通道没用，巨抽象，不推荐</td>
-</tr>
-<tr>
-<td><strong>华硕 Z890 AYW WiFi</strong></td>
-<td>1329</td>
-<td>12相80A</td>
-<td>17</td>
-<td>RTL8125D+推测MT7902</td>
-<td>价格严重偏高，不推荐</td>
-</tr>
-<tr>
-<td><strong>微星 Z890-A WiFi</strong></td>
-<td>1362</td>
-<td>16相90A</td>
-<td>16</td>
-<td>RTL8126+推测BE200</td>
-<td>价格偏高，不推荐</td>
-</tr>
-<tr>
-<td><strong>技嘉 Z890 Eagle WiFi7</strong></td>
-<td>1379</td>
-<td>14相60A</td>
-<td>16</td>
-<td>不明瑞昱2.5G+MT7925&#x2F;8922AE</td>
-<td>看看华硕微星吧，不推荐</td>
-</tr>
-<tr>
-<td><strong>技嘉 Z890M 冰雕</strong></td>
-<td>1399</td>
-<td>12相60A</td>
-<td>16</td>
-<td>不明瑞昱2.5G+MT7925&#x2F;8922AE</td>
-<td>价格严重偏高，极不推荐</td>
-</tr>
-<tr>
-<td><strong>微星 Z890 战斧导</strong>弹</td>
-<td>1569</td>
-<td>16相90A</td>
-<td>16</td>
-<td>E5000+BE1750X</td>
-<td>供电强，拓展性没优势，价格偏高，不推荐</td>
-</tr>
-<tr>
-<td><strong>技嘉 Z890 小雕</strong></td>
-<td>1717</td>
-<td>16相80A</td>
-<td>16</td>
-<td>不明瑞昱2.5G+MT7925&#x2F;8922AE</td>
-<td>价格严重偏高，不推荐</td>
-</tr>
-<tr>
-<td><strong>微星 Z890 刀锋钛</strong></td>
-<td>1950</td>
-<td>16相90A</td>
-<td>17</td>
-<td>E5000B+BE1750X</td>
-<td>价格严重偏高，不推荐</td>
-</tr>
-<tr>
-<td><strong>技嘉 Z890 电竞冰雕</strong></td>
-<td>2079</td>
-<td>16相 90A</td>
-<td>17</td>
-<td>RTL8126+BE200</td>
-<td>相较于CPU价格偏高，在这个价位USB太寒酸，不推荐</td>
-</tr>
-<tr>
-<td><strong>华硕 Z890 Hero</strong></td>
-<td>3039</td>
-<td>22相110A</td>
-<td>16</td>
-<td>不明瑞昱5G&amp;I226+不明Intel WiFi7</td>
-<td>拆分做的一坨的Hero跳水到3000，不推荐</td>
-</tr>
-</tbody></table>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>由于Ultra200s CPU的大跳水，许多LGA1851主板也跟着跳水了，价格只有综合规格相近的AM5主板的一半，我刚开始挑选时也感到眼花缭乱——希望我的这篇文章对你选购它们有所帮助。</p>
-]]></content>
   </entry>
 </search>
